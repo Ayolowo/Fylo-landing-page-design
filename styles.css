@@ -1,0 +1,103 @@
+main {
+  max-width: 1440px;
+  margin: 65px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  display: flex;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  justify-content: space-between;
+}
+
+.flyo_logo {
+  width: 100%;
+}
+
+.first_links {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: space-between;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400, 700;
+}
+
+/* Second section design starts here */
+.section_2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first_section_box {
+  width: 50%;
+}
+
+span {
+  padding-right: 10px;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 3em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  width: 80%;
+}
+
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  width: 80%;
+}
+
+#first_input {
+  width: 35%;
+  padding: 12px;
+}
+::placeholder {
+  color: rgb(196, 195, 195);
+}
+
+.button_1 {
+  background-color: hsl(224, 93%, 58%);
+  border: none;
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 2px 2px 2px #cccbcb;
+  color: white;
+  padding: 12px 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.second_section_box {
+  width: 50%;
+}
+
+.illustration-1 {
+  width: 100%;
+}
+
+/* Third section design starts here */
+
+.section_3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.illustration-2 {
+  max-width: 100%;
+}
