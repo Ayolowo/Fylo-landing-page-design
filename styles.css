@@ -1,11 +1,8 @@
-main {
-  max-width: 1440px;
-  margin: 65px;
-}
-
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
+  margin: 65px;
+  max-width: 1440px;
 }
 
 .header {
@@ -32,6 +29,7 @@ body {
 .section_2 {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 180px;
 }
 
 .first_section_box {
@@ -96,6 +94,10 @@ p {
 .section_3 {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 150px;
+  background-image: url("./images/bg-curve-desktop.svg");
+  /* background-repeat: no-repeat; */
+  background-size: 100% 100%;
 }
 
 .illustration-2 {
