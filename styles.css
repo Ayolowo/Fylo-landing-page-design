@@ -3,12 +3,11 @@ body {
   font-weight: 400;
   margin: 0;
   padding: 0;
+  color: hsl(243, 87%, 12%);
 }
 
 header {
   display: flex;
-  padding-top: 2%;
-  padding-bottom: 4%;
   justify-content: space-between;
 }
 
@@ -19,6 +18,7 @@ header {
   margin: auto;
   width: 90%;
   max-width: 1440px;
+  padding: 71px;
 }
 
 .flyo_logo {
@@ -50,6 +50,11 @@ span {
 }
 
 h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.first_sec_h1 {
   display: block;
   font-size: 2em;
   margin-top: 3em;
@@ -147,8 +152,8 @@ p {
   font-size: smaller;
   margin-top: 0;
 }
-/*  Fourth section design starts here */
 
+/*  Fourth section design starts here */
 .section_4 {
   display: flex;
   align-items: center;
@@ -157,6 +162,7 @@ p {
 
 .section_4_div_1 {
   width: 100%;
+  color: white;
 }
 
 .section_4_div_2 {
