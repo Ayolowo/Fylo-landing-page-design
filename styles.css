@@ -78,6 +78,7 @@ p {
   width: 35%;
   padding: 12px;
 }
+
 ::placeholder {
   color: rgb(196, 195, 195);
 }
@@ -93,6 +94,7 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 14px;
+  margin-left: 10px;
 }
 
 .second_section_box {
