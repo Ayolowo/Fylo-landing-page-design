@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script src="script.js"></script>
     <link
       rel="icon"
       type="image/png"
@@ -63,17 +64,20 @@
             and co-workers.
           </p>
           <div class="input_button">
-            <span>
-              <input
-                type="email"
-                name="email"
-                id="first_input"
-                placeholder="Enter your email..."
-              />
-            </span>
-            <span>
-              <button class="button_1">Get Started</button>
-            </span>
+            <form id="emailForm">
+              <span>
+                <input
+                  type="email"
+                  name="email"
+                  id="first_input"
+                  placeholder="Enter your email..."
+                  required
+                />
+              </span>
+              <span>
+                <button type="submit" class="button_1">Get Started</button>
+              </span>
+            </form>
           </div>
         </div>
         <div class="second_section_box">
@@ -86,7 +90,7 @@
       </section>
       <section class="section_3">
         <div class="secton_3_div">
-          <h1>Stay productive, wherever you are</h1>
+          <h1 class="section_3_h1">Stay productive, wherever you are</h1>
           <p>
             Never let location be an issue when accessing your files. Fylo has
             you covered for all of your file storage needs.
@@ -97,7 +101,10 @@
           </p>
           <a href="" class="Fylolink"
             >See how Fylo works
-            <img src="./images/icon-arrow.svg" alt="SEe how Flylo works"
+            <img
+              src="./images/icon-arrow.svg"
+              class="Fylolink"
+              alt="See how Flylo works"
           /></a>
           <div class="border_text">
             <div>
@@ -143,13 +150,16 @@
           </p>
         </div>
         <div class="section_4_div_2">
-          <input
-            type="email"
-            name="email@example.com"
-            placeholder="email@example.com"
-            id="second_input"
-          />
-          <button class="button_2">Get Started For Free</button>
+          <form id="emailForm2">
+            <input
+              type="email"
+              name="email"
+              placeholder="email@example.com"
+              id="second_input"
+              required
+            />
+            <button type="submit" class="button_2">Get Started For Free</button>
+          </form>
         </div>
       </section>
     </main>
