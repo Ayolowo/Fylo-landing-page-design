@@ -21,7 +21,7 @@ header {
 .section_4,
 footer {
   margin: auto;
-  width: 90%;
+  width: 91%;
   max-width: 1440px;
   padding: 71px;
 }
@@ -113,7 +113,7 @@ p {
   padding-bottom: 150px;
   background-image: url("./images/bg-curve-desktop.svg");
   background-repeat: no-repeat;
-  background-size: 310vw 100vh;
+  background-size: 320vw 110vh;
   background-position-x: center;
 }
 
