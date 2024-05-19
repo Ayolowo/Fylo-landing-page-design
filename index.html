@@ -16,6 +16,8 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -45,8 +47,8 @@
     <main>
       <section class="hero">
         <header>
-          <div class="flyo_logo">
-            <img src="./images/logo.svg" alt="flyo_logo" />
+          <div>
+            <img src="./images/logo.svg" class="flyo_logo" alt="flyo_logo" />
           </div>
           <div class="first_links">
             <a href="#Features">Features</a>
@@ -63,22 +65,16 @@
             them wherever you need, share and collaborate with friends, family,
             and co-workers.
           </p>
-          <div class="input_button">
-            <form id="emailForm">
-              <span>
-                <input
-                  type="email"
-                  name="email"
-                  id="first_input"
-                  placeholder="Enter your email..."
-                  required
-                />
-              </span>
-              <span>
-                <button type="submit" class="button_1">Get Started</button>
-              </span>
-            </form>
-          </div>
+          <form id="emailForm">
+            <input
+              type="email"
+              name="email"
+              id="first_input"
+              placeholder="Enter your email..."
+              required
+            />
+            <button type="submit" class="button_1">Get Started</button>
+          </form>
         </div>
         <div class="second_section_box">
           <img
@@ -103,7 +99,7 @@
             >See how Fylo works
             <img
               src="./images/icon-arrow.svg"
-              class="Fylolink"
+              class="Fylolink2"
               alt="See how Flylo works"
           /></a>
           <div class="border_text">
@@ -142,7 +138,7 @@
       </section>
       <section class="section_4">
         <div class="section_4_div_1">
-          <h1>Get early access today</h1>
+          <h3>Get early access today</h3>
           <p>
             It only takes a minute to sign up and our free starter tier is
             extremely generous. If you have any questions, our support team
