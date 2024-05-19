@@ -121,6 +121,11 @@ p {
   width: 100%;
 }
 
+.section_3 a {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
 .illustration-2 {
   width: 100%;
 }
